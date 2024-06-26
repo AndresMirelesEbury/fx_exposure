@@ -16,7 +16,7 @@ def upload_table(df, t_name, bq_client, config):
     local_tmp_file = f"{t_name}.json"
     df.to_json(local_tmp_file, orient="records", lines=True)
 
-    write_method = "WRITE_APPEND"
+    write_method = "WRITE_TRUNCATE"
 
     dst_table = config["outputs"]["dataset"] + "." + t_name
 

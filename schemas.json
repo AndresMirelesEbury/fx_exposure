@@ -1,0 +1,8 @@
+{
+    "below_the_line_monthly": [
+      { "name": "currency", "type": "STRING"},
+      { "name": "below_the_line_gbp", "type": "FLOAT" },
+      { "name": "balance_date", "type": "DATETIME" }
+    ]
+  }
+  
