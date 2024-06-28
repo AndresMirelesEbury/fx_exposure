@@ -1,8 +1,22 @@
 {
-    "below_the_line_monthly": [
-      { "name": "currency", "type": "STRING"},
-      { "name": "below_the_line_gbp", "type": "FLOAT" },
-      { "name": "balance_date", "type": "DATETIME" }
-    ]
-  }
+  "below_the_line_monthly": [
+    { "name": "currency", "type": "STRING"},
+    { "name": "below_the_line_gbp", "type": "FLOAT"},
+    { "name": "balance_date", "type": "DATETIME" }
+  ],
+
+  "hedges_entities": [
+    { "name": "internal_external", "type": "STRING"},
+    { "name": "pair", "type": "STRING"},
+    { "name": "direction", "type": "STRING"},
+    { "name": "amount_gbp", "type": "FLOAT"},
+    { "name": "amount_local_ccy", "type": "FLOAT"},
+    { "name": "amount_entity_ccy", "type": "FLOAT"},
+    { "name": "entity", "type": "STRING"},
+    { "name": "entity_ccy", "type": "STRING"},
+    { "name": "dealset", "type": "STRING"},
+    { "name": "type", "type": "STRING"},
+    { "name": "balance_date", "type": "DATETIME" }
+  ]
+}
   
