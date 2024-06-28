@@ -10,8 +10,6 @@
     { "name": "pair", "type": "STRING"},
     { "name": "direction", "type": "STRING"},
     { "name": "amount_gbp", "type": "FLOAT"},
-    { "name": "amount_local_ccy", "type": "FLOAT"},
-    { "name": "amount_entity_ccy", "type": "FLOAT"},
     { "name": "entity", "type": "STRING"},
     { "name": "entity_ccy", "type": "STRING"},
     { "name": "dealset", "type": "STRING"},
